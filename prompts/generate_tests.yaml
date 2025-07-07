@@ -1,0 +1,12 @@
+task: "Generate GoogleTest unit tests for the given C++ code"
+rules:
+  - Use GoogleTest framework only
+  - Generate test cases for each function in the input code
+  - Do not create duplicate or redundant tests
+  - Ensure all required headers are included
+  - Use meaningful test case names
+  - Use ASSERT/EXPECT macros appropriately
+output:
+  - Format: valid C++ (.cpp)
+  - Filename format: test_<original>.cpp
+  - Wrap tests in appropriate TEST or TEST_F blocks

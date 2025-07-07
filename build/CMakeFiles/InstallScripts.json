@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/KIIT/cpp-test-generator/build/cmake_install.cmake",
+		"C:/Users/KIIT/cpp-test-generator/build/googletest/cmake_install.cmake",
+		"C:/Users/KIIT/cpp-test-generator/build/googletest/googlemock/cmake_install.cmake",
+		"C:/Users/KIIT/cpp-test-generator/build/googletest/googletest/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

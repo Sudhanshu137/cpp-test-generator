@@ -1,0 +1,10 @@
+^C:\USERS\KIIT\CPP-TEST-GENERATOR\BUILD\CMAKEFILES\4C56CF2D192DA6FD6E7819A4D09AF1F1\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/KIIT/cpp-test-generator -BC:/Users/KIIT/cpp-test-generator/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/KIIT/cpp-test-generator/build/MyTestProject.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
